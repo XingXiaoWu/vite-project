@@ -15,12 +15,20 @@
     ],
     "types": [
       "element-plus/global"
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "src/**/*.scss"
   ]
 }
