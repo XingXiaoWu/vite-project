@@ -1,0 +1,10 @@
+/* 改变主题色变量 */
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": #CCA05D,
+    ),
+  ),
+);
+// @import "element-plus/dist/index.css";

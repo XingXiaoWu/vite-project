@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
@@ -16,7 +17,6 @@
     "types": [
       "element-plus/global"
     ],
-    "baseUrl": "./",
     "paths": {
       "~/*": [
         "src/*"
@@ -28,7 +28,6 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
-    "src/**/*.scss"
+    "src/**/*.vue"
   ]
 }
