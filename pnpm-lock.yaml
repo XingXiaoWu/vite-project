@@ -8,6 +8,7 @@ specifiers:
   element-plus: ^1.2.0-beta.3
   eslint: ^8.3.0
   eslint-config-airbnb-base: ^15.0.0
+  eslint-import-resolver-alias: ^1.1.2
   eslint-plugin-import: ^2.25.2
   eslint-plugin-vue: ^8.1.1
   sass: ^1.43.4
@@ -29,6 +30,7 @@ devDependencies:
   '@vitejs/plugin-vue': 1.9.4_vite@2.6.14
   eslint: 8.3.0
   eslint-config-airbnb-base: 15.0.0_a32f4f7b9ceb1e357b5ea9f682f0210a
+  eslint-import-resolver-alias: 1.1.2_eslint-plugin-import@2.25.3
   eslint-plugin-import: 2.25.3_eslint@8.3.0
   eslint-plugin-vue: 8.1.1_eslint@8.3.0
   sass: 1.43.4
@@ -976,6 +978,15 @@ packages:
       object.assign: 4.1.2
       object.entries: 1.1.5
       semver: 6.3.0
+    dev: true
+
+  /eslint-import-resolver-alias/1.1.2_eslint-plugin-import@2.25.3:
+    resolution: {integrity: sha512-WdviM1Eu834zsfjHtcGHtGfcu+F30Od3V7I9Fi57uhBEwPkjDcii7/yW8jAT+gOhn4P/vOxxNAXbFAKsrrc15w==}
+    engines: {node: '>= 4'}
+    peerDependencies:
+      eslint-plugin-import: '>=1.4.0'
+    dependencies:
+      eslint-plugin-import: 2.25.3_eslint@8.3.0
     dev: true
 
   /eslint-import-resolver-node/0.3.6:

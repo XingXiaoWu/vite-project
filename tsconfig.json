@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
@@ -18,8 +18,8 @@
       "element-plus/global"
     ],
     "paths": {
-      "~/*": [
-        "src/*"
+      "@/*": [
+        "./src/*"
       ]
     },
     "allowSyntheticDefaultImports": true
@@ -28,6 +28,7 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "src/**/*.scss",
   ]
 }
