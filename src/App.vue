@@ -22,6 +22,6 @@ import HelloWorld from './components/HelloWorld.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  background-color: aquamarine;
+  background-color: $aquamarine;
 }
 </style>
