@@ -5,6 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.4.0
   '@typescript-eslint/parser': ^5.4.0
   '@vitejs/plugin-vue': ^1.9.3
+  '@vue/eslint-config-typescript': ^9.1.0
   element-plus: ^1.2.0-beta.3
   eslint: ^8.3.0
   eslint-config-airbnb-base: ^15.0.0
@@ -30,6 +31,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.4.0_5c8ff4cecd5a55e744866c0654edac32
   '@typescript-eslint/parser': 5.4.0_eslint@8.3.0+typescript@4.5.2
   '@vitejs/plugin-vue': 1.10.0_vite@2.6.14
+  '@vue/eslint-config-typescript': 9.1.0_4740869c9bb1a26728eeab6a8add620f
   eslint: 8.3.0
   eslint-config-airbnb-base: 15.0.0_a32f4f7b9ceb1e357b5ea9f682f0210a
   eslint-import-resolver-alias: 1.1.2_eslint-plugin-import@2.25.3
@@ -366,6 +368,24 @@ packages:
   /@vue/devtools-api/6.0.0-beta.20.1:
     resolution: {integrity: sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==}
     dev: false
+
+  /@vue/eslint-config-typescript/9.1.0_4740869c9bb1a26728eeab6a8add620f:
+    resolution: {integrity: sha512-j/852/ZYQ5wDvCD3HE2q4uqJwJAceer2FwoEch1nFo+zTOsPrbzbE3cuWIs3kvu5hdFsGTMYwRwjI6fqZKDMxQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      '@typescript-eslint/eslint-plugin': ^5.0.0
+      '@typescript-eslint/parser': ^5.0.0
+      eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
+      eslint-plugin-vue: ^8.0.1
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.4.0_5c8ff4cecd5a55e744866c0654edac32
+      '@typescript-eslint/parser': 5.4.0_eslint@8.3.0+typescript@4.5.2
+      eslint: 8.3.0
+      eslint-plugin-vue: 8.1.1_eslint@8.3.0
+      vue-eslint-parser: 8.0.1_eslint@8.3.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
 
   /@vue/reactivity/3.2.22:
     resolution: {integrity: sha512-xNkLAItjI0xB+lFeDgKCrSItmrHTaAzSnt8LmdSCPQnDyarmzbi/u4ESQnckWvlL7lSRKiEaOvblaNyqAa7OnQ==}

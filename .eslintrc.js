@@ -16,6 +16,7 @@ module.exports = {
   plugins: [
     'vue',
     '@typescript-eslint',
+    '@vue/typescript/recommended',
   ],
   settings: {
     'import/resolver': {
