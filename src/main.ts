@@ -11,6 +11,3 @@ app.use(router)
 app.use(ElementPlus)
 app.use(createPinia())
 app.mount('#app')
-
-console.log(import.meta.env.BASE_URL)
-console.log(process.env.NODE_ENV)
